@@ -24,7 +24,7 @@ def main():
     diffs = hammingDistance(str1, str2)
     print diffs
 
-    file encrypted = open("encryptedFile.txt")
+    file encrypted = open("ch6File.txt")
     with open("encryptedFile.txt", 'r') as f:
         lines = f.readlines()
 
