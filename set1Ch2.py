@@ -1,4 +1,4 @@
-#! /usr/local/env python
+#! /usr/bin/env python3
 import sys
 import binascii
 import string
@@ -25,10 +25,10 @@ def xorStuff(decodedHexNum, decodedNum2):
 def main():
 
 	combo = "1c0111001f010100061a024b53535009181c"
-	print "Combo: " + combo
+	print ("Combo: " + combo)
 	xorNum = "686974207468652062756c6c277320657965"
-	print "XorNum: " + xorNum
+	print ("XorNum: " + xorNum)
 	comboXor = xorStuff(combo, xorNum)
-	print "comboXor: " + comboXor
+	print (comboXor: " + comboXor)
 
 main()
