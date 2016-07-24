@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 
 def repeatingXor(text, key):
@@ -16,7 +16,7 @@ def repeatingXor(text, key):
 
 
 def main():
-	print "Challenge 5: "
+	print ("Challenge 5: ")
 	text = "Burning 'em, if you ain't quick and nimble\nI go crazy when I hear a cymbal" # Need as bytes
 	key ='ICE'
 	print ("Text to be encrypted: " + text)

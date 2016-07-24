@@ -1,4 +1,4 @@
-#! /usr/local/env python
+#! /usr/local/env python3
 import sys
 import binascii
 import string
@@ -22,11 +22,11 @@ def decipherSingleXor(msg):
     return max(ans, key=lambda x: x[0])                       # return highest score
 
 def main():
-	print "Challenge 3: "
+	print ("Challenge 3: ")
 	cipher = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
 	cipher = cipher.decode('hex')
 	cipher = bytearray(cipher)
 	ni = decipherSingleXor(cipher)
-	print ni, "\n"
+	print (ni, "\n")
 
 main()

@@ -1,4 +1,4 @@
-#!/usr/env/bin python
+#!/usr/env/bin python3
 
 import re
 from challenge3 import scoreText
@@ -19,6 +19,6 @@ def main():
         lines = f.readlines()
 
     ans = findSingleXor(lines)
-    print ans, "\n"
+    print (ans, "\n")
 
 main()

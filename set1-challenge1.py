@@ -1,4 +1,4 @@
-#! /usr/local/env python
+#! /usr/local/env python3
 
 import base64
 import binascii
@@ -12,7 +12,7 @@ def main():
 	hexNum = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d"
 	print (hexNum)
 	fNum = hexToBase64(hexNum)
-	print "Converted to base 64 is: "
+	print ("Converted to base 64 is: ")
 	print (fNum)
 
 main()
