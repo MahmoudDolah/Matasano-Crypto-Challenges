@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 import random
+import base64
+#import set1-challenge3
+#import set1-challenge5
 
 def hammingDistance(str1, str2):
     # Count the number of differences between equal length strings str1 and str2 and return it
@@ -22,7 +25,7 @@ def main():
     print(diffs)
 
     encrypted = open("ch6File.txt")
-    with open("encryptedFile.txt", 'r') as f:
+    with open("ch6File.txt", 'r') as f:
         lines = f.readlines()
 
     findKeySize(lines)
