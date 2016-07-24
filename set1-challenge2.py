@@ -1,4 +1,4 @@
-#! /usr/local/env python3
+#! /usr/bin/env python3
 import sys
 import binascii
 import string
@@ -29,6 +29,6 @@ def main():
 	xorNum = "686974207468652062756c6c277320657965"
 	print ("XorNum: " + xorNum)
 	comboXor = xorStuff(combo, xorNum)
-	print ("comboXor: " + comboXor)
+	print (comboXor: " + comboXor)
 
 main()

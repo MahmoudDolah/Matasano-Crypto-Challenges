@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 def repeatingXor(text, key):
 	text = bytearray(text)
 	key = bytearray(key)

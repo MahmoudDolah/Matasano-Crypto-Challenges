@@ -27,5 +27,4 @@ def main():
 
     findKeySize(lines)
 
-
 main()
